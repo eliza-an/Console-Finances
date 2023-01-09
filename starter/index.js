@@ -86,3 +86,41 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+//total number of months//
+console.log("Total Months: " + finances.length)
+
+//The net total amount of Profit/Losses over the entire period//
+function sumArray(array){
+    let sum =0
+    for(let i=0; i< array.length; i+=1){
+        
+        sum+=array[i][1]
+      
+    }
+    return sum
+
+
+}
+
+console.log("Total: $" + sumArray(finances))
+
+//The average of the changes in Profit/Losses over the entire period//
+
+function differencesArray(array){
+    let sumchanges =0
+    for (let i=0; i<array.length -1; i++){
+        
+        sumchanges+=array[i+1][1]-array[i][1]
+      
+    }
+    return sumchanges
+
+
+}
+
+
+
+console.log("Average Change: $" + (differencesArray(finances)/finances.length-1).toFixed(2))
+
+//The greatest increase in profits (date and amount) over the entire period//
