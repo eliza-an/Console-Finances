@@ -152,7 +152,7 @@ let month = finances[ind+1][0]
 console.log("Greatest Increase in Profits: "  + month + " " +  "($" + maximum + ")"  )
 
 
-//minimum difference //
+//The greatest decresase in profits over period //
 
 let minimum = Math.min(...differences(finances)) 
 let inde= differences(finances).indexOf(minimum)
