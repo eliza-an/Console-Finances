@@ -23,7 +23,7 @@ Using Javascript is valuable because it allows us to create a responsive page th
 
 
 
-![image](https://user-images.githubusercontent.com/118762745/211641694-21bc09d9-a7b1-4d7f-8c85-00495fb1e67f.png)
+![image](https://user-images.githubusercontent.com/118762745/211644806-1d591226-dc51-4630-831d-d5caa29e0109.png)
 
 
 
@@ -31,7 +31,7 @@ Using Javascript is valuable because it allows us to create a responsive page th
 
 
 
-Link: 
+Link: https://eliza-an.github.io/Console-Finances/ 
 
 
 ## Installation
@@ -41,7 +41,7 @@ N/A
 
 ## Usage
 
-This assignment was made to check my understanding of Javascript. The answers to my assignment can be found by opening the console.
+This assignment was made to check my understanding of Javascript. The answers to my assignment can be found by opening the console. This can be done by right clicking the screen and navigating to inspect. After this a window will pop up. Next to elements in the top right, please select console. 
 
 ## Credits
 
