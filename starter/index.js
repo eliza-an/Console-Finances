@@ -124,3 +124,30 @@ function differencesArray(array){
 console.log("Average Change: $" + (differencesArray(finances)/finances.length-1).toFixed(2))
 
 //The greatest increase in profits (date and amount) over the entire period//
+
+
+function differences(array) {
+  let differencesArray= []
+
+    for (let i=0; i<array.length -1; i++) {
+
+
+     Difference=array[i+1][1]-array[i][1]
+
+    differencesArray.push(Difference)
+
+    }
+
+    return differencesArray
+ 
+
+}
+
+
+
+let maximum = Math.max(...differences(finances)) 
+let ind= differences(finances).indexOf(maximum)
+let month = finances[ind][0]
+
+
+console.log("Greatest Increase in Profits: "  + month + " " +  "($" + maximum + ")"  )
